@@ -55,8 +55,8 @@ exports.atualiza_um_produto = (req,res)=>{
 exports.remove_um_produto = (req,res)=>{
     produto.deleteOne({_id: req.params.produtoId},(err)=>{
         if(err){
-            res.send(err)
+            res.status(err)
         }
-        res.json({"Mensagem:": "Produto deletadox"})
+        res.json({"Mensagem:": "Produto deletado"})
     })
 }

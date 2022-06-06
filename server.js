@@ -24,5 +24,5 @@ routes(app)
 
 
 app.listen(PORT,()=>{
-    console.log('ESCUNTADO A PORTA'+PORT);
+    console.log('ESCUTANDO A PORTA'+PORT);
 })
