@@ -53,10 +53,10 @@ exports.atualiza_um_produto = (req,res)=>{
 //delete 
 
 exports.remove_um_produto = (req,res)=>{
-    produto.remove({_id: req.params.produtoId},(err)=>{
+    produto.deleteOne({_id: req.params.produtoId},(err)=>{
         if(err){
             res.send(err)
         }
-        res.json({"Mensagem:": "Produto deletado"})
+        res.json({"Mensagem:": "Produto deletadox"})
     })
 }
