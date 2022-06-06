@@ -1,0 +1,24 @@
+{
+  "name": "api-produtos",
+  "version": "1.0.0",
+  "description": "Api de Produtos criada em Node.js + Express + MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrenoLins100/api-produtos.git"
+  },
+  "author": "Breno Lins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrenoLins100/api-produtos/issues"
+  },
+  "homepage": "https://github.com/BrenoLins100/api-produtos#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.5"
+  }
+}
